@@ -15,7 +15,7 @@ alert (`The weather in ${response.data.name} is ${response.data.main.temp} °C`)
       
     return (
         
-        <Loader type="TailSpin" color="blue" height={80} width={80} />
+        <Loader type="TailSpin" color="pink" height={80} width={80} />
     )
 
 }

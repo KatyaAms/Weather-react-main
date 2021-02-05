@@ -9,7 +9,7 @@ function App() {
         
      <Weather city="Amsterdam"/>
      <p>
-      Hello World 
+      Hello, Katya 
     </p>
       </header>
     </div>
