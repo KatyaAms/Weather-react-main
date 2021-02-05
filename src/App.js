@@ -1,12 +1,12 @@
 import React from "react";
-import Weather from "./Weather";
+
 import "./App.css";
 
 
 export default function App() {
   let WeatherData = {
     city: "Amsterdam, NL",
-    date: "16:40 Sunday, 17 January",
+    date: "16:40 Friday, 5 February",
     description: "Snowing",
     temperature: 2,
     humidity: 80,
@@ -17,7 +17,6 @@ export default function App() {
     <div className="landing-wrapper">
       <div className="App">
         <div className="weatherApp">
-          <Weather city="Amsterdam"/>
         
           <h2>Current weather in:</h2>
           <form>
@@ -79,6 +78,32 @@ export default function App() {
                   <li> Wind: {WeatherData.wind} km/h</li>
                 </strong>
               </ul>
+            </div>
+        
+            <div class="col-2">
+              <h6>Sat</h6>
+              🌧
+              <h6>2°C</h6>
+            </div>
+            <div class="col-2">
+              <h6>Sun</h6>
+              🌧
+              <h6>1°C</h6>
+            </div>
+            <div class="col-2">
+              <h6>Mon</h6>
+              ❄️
+              <h6>0°C</h6>
+            </div>
+            <div class="col-2">
+              <h6>Tue</h6>
+              ❄️
+              <h6>-1°C</h6>
+            </div>
+            <div class="col-2">
+              <h6>Wed</h6>
+              ❄️
+              <h6>-2°C</h6>
             </div>
           </div>
         </div>
