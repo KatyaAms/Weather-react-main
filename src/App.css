@@ -1,38 +1,86 @@
-.App {
+h1,
+h2,
+h5,
+ul,
+a,
+.row {
+  color: whitesmoke;
+}
+h1 {
+  font-size: 60px;
+}
+
+h5 {
+  padding-top: 10px;
+  margin: 1px 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+h5::first-letter {
+  text-transform: capitalize;
+}
+img {
+  max-width: 100%;
+}
+
+.col-2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#current-location-button {
+  margin-top: 5px;
+}
+button {
+  margin-top: 0.1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.number {
+  font-size: 65px;
+}
+#celsius,
+#fahrenheit {
+  position: relative;
+  top: -34px;
+  font-size: 16px;
+  text-decoration: none;
+}
+.active {
+  color: whitesmoke;
+  cursor: default;
+}
+.active:hover {
+  color: blue;
+  text-decoration: none;
+}
+.city {
+  text-transform: capitalize;
+}
+.weatherApp {
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 5px;
+}
+.sign {
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 200;
+}
+.linkedin,
+.github,
+.netlify {
+  color: #2d5580;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landing-wrapper {
+  margin: 20px auto;
+  background-size: cover;
+  max-width: 700px;
+  background-repeat: no-repeat;
+  background-image: url(https://images.newscientist.com/wp-content/uploads/2017/08/21150000/gettyimages-498152026.jpg?width=300);
 }
