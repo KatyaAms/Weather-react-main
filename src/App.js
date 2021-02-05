@@ -104,7 +104,11 @@ export default function App() {
             </div>
           </div>
         </div>
+
       </div>
+      <p class="sign">
+  This project was coded by <a href="https://www.linkedin.com/in/ekaterinabilenko/" class="linkedin">Ekaterina Bilenko</a> and is <a href="https://github.com/KatyaAms/Weather-react-main" class="github">open-sourced on GitHub</a> and hosted on <a href="https://www.netlify.com/" class="netlify">Netlify</a>.
+</p> 
     </div>
   );
 }
