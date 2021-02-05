@@ -62,12 +62,9 @@ export default function App() {
               <br />
               <h1>
                 <span className="number">{WeatherData.temperature}</span>
-                <a href="#" id="celsius" className="active">
-                  °C |
-                </a>
-                <a href="#" id="fahrenheit">
-                  °F
-                </a>
+                <button className="active" >°C |</button>
+                <button className="active" >°F</button>
+            
               </h1>
               <br />
             </div>

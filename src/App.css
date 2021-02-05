@@ -40,21 +40,7 @@ button {
 .number {
   font-size: 65px;
 }
-#celsius,
-#fahrenheit {
-  position: relative;
-  top: -34px;
-  font-size: 16px;
-  text-decoration: none;
-}
-.active {
-  color: whitesmoke;
-  cursor: default;
-}
-.active:hover {
-  color: blue;
-  text-decoration: none;
-}
+
 .city {
   text-transform: capitalize;
 }
@@ -83,4 +69,25 @@ button {
   max-width: 700px;
   background-repeat: no-repeat;
   background-image: url(https://images.newscientist.com/wp-content/uploads/2017/08/21150000/gettyimages-498152026.jpg?width=300);
+}
+
+.active {
+  color: whitesmoke;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -34px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.active:hover,
+.active:focus {
+color: blue;
+text-decoration: none;
 }
